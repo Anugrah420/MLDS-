@@ -1,0 +1,4 @@
+# Optional: Grid Operator AI Assistant (Gemini via LangChain).
+# Tested with langchain-google-genai 4.4.2 and langchain-core 1.7.1.
+langchain-google-genai>=4.0,<5
+langchain-core>=1.0,<2

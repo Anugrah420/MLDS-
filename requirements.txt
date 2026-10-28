@@ -1,0 +1,13 @@
+# Core ML pipeline + dashboard (no API key needed).
+# Tested with: numpy 2.5.3, pandas 3.0.5, scikit-learn 1.9.1, joblib 1.6.0,
+#              plotly 7.1.0, streamlit 1.66.1 on Python 3.13.
+numpy>=2.0,<3
+pandas>=2.2,<4
+scikit-learn>=1.5,<2
+joblib>=1.4
+plotly>=5.22,<8
+streamlit>=1.50,<2
+
+# Optional AI assistant. To enable it on Streamlit Community Cloud (which only
+# reads this file), uncomment the next line:
+# -r requirements-llm.txt
